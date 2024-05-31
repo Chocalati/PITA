@@ -1,0 +1,5 @@
+*.mov filter=lfs diff=lfs merge=lfs -text
+# Handle line endings for JavaScript files
+*.js text eol=lf
+# Handle line endings for all text files
+* text=auto
